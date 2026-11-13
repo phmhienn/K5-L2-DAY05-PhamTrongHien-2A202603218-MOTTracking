@@ -18,19 +18,19 @@ Sau bài lab, bạn có thể:
 
 ## Thông tin nhanh
 
-| Mục | Giá trị |
-|---|---|
-| Loại bài | Cá nhân |
-| Thời lượng | 240 phút (195′ làm bài + 15′ nghỉ + 30′ buffer) |
-| Dữ liệu | MOT17-09, frame 1–150, 1920×1080, 30 fps ([tải ảnh và tạo task](docs/CVAT_LOCAL_SETUP.md)) |
-| Công cụ | CVAT Community chạy trên máy cá nhân, Python 3.11+ để chạy script tạo task và tự kiểm |
-| Deadline | **23:59 GMT+7 ngày làm lab**, trừ khi coach thông báo khác trong 48h sau lab. Xem `SUBMISSION.md` |
-| Điểm | 100 điểm chính + tối đa 10 điểm bonus. Xem `RUBRIC.md` |
+| Mục        | Giá trị                                                                                           |
+| ---------- | ------------------------------------------------------------------------------------------------- |
+| Loại bài   | Cá nhân                                                                                           |
+| Thời lượng | 240 phút (195′ làm bài + 15′ nghỉ + 30′ buffer)                                                   |
+| Dữ liệu    | MOT17-09, frame 1–150, 1920×1080, 30 fps ([tải ảnh và tạo task](docs/CVAT_LOCAL_SETUP.md))        |
+| Công cụ    | CVAT Community chạy trên máy cá nhân, Python 3.11+ để chạy script tạo task và tự kiểm             |
+| Deadline   | **23:59 GMT+7 ngày làm lab**, trừ khi coach thông báo khác trong 48h sau lab. Xem `SUBMISSION.md` |
+| Điểm       | 100 điểm chính + tối đa 10 điểm bonus. Xem `RUBRIC.md`                                            |
 
 ## Chuẩn bị trước buổi
 
-- [ ] [Chạy script CVAT local](docs/CVAT_LOCAL_SETUP.md), nhập MSSV, mở link job và kiểm tra frame 0–149.
-- [ ] Đã xem slide lý thuyết Ngày 5, nhất là phần keyframe, `occluded` / `outside`, năm lỗi ID, MOTA / IDF1.
+- [x] [Chạy script CVAT local](docs/CVAT_LOCAL_SETUP.md), nhập MSSV, mở link job và kiểm tra frame 0–149.
+- [x] Đã xem slide lý thuyết Ngày 5, nhất là phần keyframe, `occluded` / `outside`, năm lỗi ID, MOTA / IDF1.
 - [ ] Ôn phím `N` `F` `D` `V` `C` `K` `O` `Q` `M` `Ctrl+S` (bảng ở `docs/CVAT_CHEATSHEET.md`).
 - [ ] Máy có Python 3.11 trở lên (`python --version`).
 - [ ] Mở **bảng nhận diện P1–P5** của đề A/B/C theo đường dẫn script in ra.
@@ -59,18 +59,18 @@ Sau khi clone hoặc tải ZIP của repo, mở `tools/lab05/index.html` bằng 
 
 Mốc tính bằng phút kể từ lúc bắt đầu buổi thực hành (phút 0), áp dụng cho cả lab sáng lẫn lab chiều.
 
-| Mốc phút | Thời lượng | Nội dung | Checkpoint |
-|---|---:|---|---|
-| 0–5 | 5′ | Chữa exit ticket | |
-| 5–20 | 15′ | Luật, dữ liệu, quy ước nhãn; mở job, cấu hình player | CP0 |
-| 20–45 | 25′ | Coach demo track mode trên một người mẫu, bạn làm theo | CP0 |
-| 45–100 | 55′ | Gán 5 track trên 150 frame. **Mốc phút 100: xong ít nhất 4 người** | CP1 |
-| 100–115 | 15′ | Nghỉ (bấm `Ctrl+S` trước khi nghỉ) | |
-| 115–140 | 25′ | Đoạn bị che | CP2 |
-| 140–170 | 30′ | Tự review ID hai lượt | CP3 |
-| 170–195 | 25′ | Xuất file, chạy script tự kiểm, viết báo cáo | CP4 |
-| 195–225 | 30′ | Buffer: làm bù hoặc làm bonus | Bonus |
-| 225–240 | 15′ | Nộp bài, tổng kết | |
+| Mốc phút | Thời lượng | Nội dung                                                           | Checkpoint |
+| -------- | ---------: | ------------------------------------------------------------------ | ---------- |
+| 0–5      |         5′ | Chữa exit ticket                                                   |            |
+| 5–20     |        15′ | Luật, dữ liệu, quy ước nhãn; mở job, cấu hình player               | CP0        |
+| 20–45    |        25′ | Coach demo track mode trên một người mẫu, bạn làm theo             | CP0        |
+| 45–100   |        55′ | Gán 5 track trên 150 frame. **Mốc phút 100: xong ít nhất 4 người** | CP1        |
+| 100–115  |        15′ | Nghỉ (bấm `Ctrl+S` trước khi nghỉ)                                 |            |
+| 115–140  |        25′ | Đoạn bị che                                                        | CP2        |
+| 140–170  |        30′ | Tự review ID hai lượt                                              | CP3        |
+| 170–195  |        25′ | Xuất file, chạy script tự kiểm, viết báo cáo                       | CP4        |
+| 195–225  |        30′ | Buffer: làm bù hoặc làm bonus                                      | Bonus      |
+| 225–240  |        15′ | Nộp bài, tổng kết                                                  |            |
 
 ## Cấu trúc repo
 

@@ -37,12 +37,12 @@ K5-L2-DAY05-HoVaTen-MSSV-MOTTracking/
     └── images/                    # BẮT BUỘC: ít nhất 3 ảnh đoạn bị che
 ```
 
-| File | Yêu cầu |
-|---|---|
-| `src/exports/HoVaTen_mot.zip` | Xuất từ CVAT, định dạng **MOT 1.1**, bỏ chọn Save images. Bên trong có `gt/gt.txt` |
-| `src/exports/HoVaTen_cvat_video.zip` | Xuất từ CVAT, định dạng **CVAT for video 1.1**, bỏ chọn Save images. Bên trong có `annotations.xml` |
-| `report/individual/MSSV_HoTen.md` | Đổi tên theo MSSV và họ tên không dấu, ví dụ `20241234_NguyenVanAn.md`. Ghi mã đề A/B/C ở mục 0 và điền đủ mục 1–6 |
-| `report/individual/images/` | 3 ảnh đoạn bị che (trước, giữa, sau), đặt tên `che_1_truoc.png`, `che_2_giua.png`, `che_3_sau.png` |
+| File                                 | Yêu cầu                                                                                                            |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `src/exports/HoVaTen_mot.zip`        | Xuất từ CVAT, định dạng **MOT 1.1**, bỏ chọn Save images. Bên trong có `gt/gt.txt`                                 |
+| `src/exports/HoVaTen_cvat_video.zip` | Xuất từ CVAT, định dạng **CVAT for video 1.1**, bỏ chọn Save images. Bên trong có `annotations.xml`                |
+| `report/individual/MSSV_HoTen.md`    | Đổi tên theo MSSV và họ tên không dấu, ví dụ `20241234_NguyenVanAn.md`. Ghi mã đề A/B/C ở mục 0 và điền đủ mục 1–6 |
+| `report/individual/images/`          | 3 ảnh đoạn bị che (trước, giữa, sau), đặt tên `che_1_truoc.png`, `che_2_giua.png`, `che_3_sau.png`                 |
 
 Trên CVAT máy cá nhân, chuyển job sang **completed**. Coach xem bài qua repo đã nộp.
 
@@ -79,11 +79,11 @@ Lệnh chỉ được in ra các ảnh chụp màn hình trong `report/individua
 
 ## Checklist
 
-- [ ] Repo đặt đúng tên `K5-L2-DAY05-HoVaTen-MSSV-MOTTracking`.
-- [ ] Có `src/exports/HoVaTen_mot.zip` (MOT 1.1) và `src/exports/HoVaTen_cvat_video.zip` (CVAT for video 1.1), cả hai không kèm ảnh.
-- [ ] Script tự kiểm báo 5 track ID, không có `[LỖI]`; đã dán kết quả vào báo cáo mục 5.
-- [ ] Báo cáo đã đổi tên thành `MSSV_HoTen.md` và điền đủ mục 1–6.
-- [ ] Có 3 ảnh đoạn bị che trong `report/individual/images/` và đã chèn vào báo cáo.
-- [ ] Job trên CVAT máy cá nhân đã chuyển sang **completed**.
-- [ ] Không commit ảnh / video / `gt.txt` gốc của MOT17, không commit `.env` hay mật khẩu.
+- [x] Repo đặt đúng tên `K5-L2-DAY05-HoVaTen-MSSV-MOTTracking`.
+- [x] Có `src/exports/HoVaTen_mot.zip` (MOT 1.1) và `src/exports/HoVaTen_cvat_video.zip` (CVAT for video 1.1), cả hai không kèm ảnh.
+- [x] Script tự kiểm báo 5 track ID, không có `[LỖI]`; đã dán kết quả vào báo cáo mục 5.
+- [x] Báo cáo đã đổi tên thành `MSSV_HoTen.md` và điền đủ mục 1–6.
+- [x] Có 3 ảnh đoạn bị che trong `report/individual/images/` và đã chèn vào báo cáo.
+- [x] Job trên CVAT máy cá nhân đã chuyển sang **completed**.
+- [x] Không commit ảnh / video / `gt.txt` gốc của MOT17, không commit `.env` hay mật khẩu.
 - [ ] Đã nộp link repo trên LMS trước 23:59 GMT+7 ngày lab.
